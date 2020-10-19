@@ -1,0 +1,445 @@
+body{
+  font-family: "Montserrat-bold" ;
+}
+.heading{
+  font-size: 2rem;
+}
+.line{
+  border: none;
+  border-top: 3px double ;
+  color: #435E55FF;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+.logo{
+  height: 7rem;
+  width: 7rem;
+}
+
+#title{
+  background-color: #435E55FF;
+  color:#fff ;
+}
+
+.tog{
+  background-color:#435E55FF ;
+  text-align: center;
+  border: 2px solid black;
+}
+.tog-lines{
+  padding-top: 5px;
+}
+.navbar-brand{
+  color: white;
+}
+.navbar-brand:hover{
+  color: white;
+}
+.dropdown-item{
+  /* background-color: transparent; */
+  color: black;
+  text-align: center;
+}
+
+.dropdown-item:hover{
+  color: #435E55FF;
+}
+
+ul{
+  text-align: center;
+}
+P{
+  margin: 20PX
+}
+
+
+
+.dropdown-menu {
+  border-color:  black;
+  border-width: 3px;
+  width: 200px;
+  background-color: white;
+}
+
+nav ul li a{
+  color: white;
+}
+
+nav ul li a:hover{
+  color: grey;
+}
+
+.nav-link{
+  font-size: 1.1rem;
+  display: inline-block;
+  font-family: Montserrat-light ;
+}
+
+.nav-item{
+  padding: 0px 18px;
+  color: white;
+}
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+
+.hello{
+  display: inline-block;
+
+}
+
+/* testimonials */
+#testimonials{
+  padding: 3% 5%;
+  text-align: center;
+  background-color:  #fff  ;
+}
+
+.testimonial-image{
+  width: 900px;
+  height: 500px;
+  margin: 2px;
+}
+
+/*....................................................................... message */
+
+#message{
+
+  text-align:center;
+  background-color: #435E55FF;
+  /* background-color:  #587850  ; */
+  color: #fff;
+}
+
+.principal-mam{
+  border-radius: 100%;
+  height: 17rem;
+  width: 17rem;
+  margin: 1rem 2rem ;
+}
+
+/* .................................................gallary */
+
+#gallary{
+  padding: 5% 5%;
+  text-align:center;
+  background-color:  #fff  ;
+  }
+
+.gallary-image{
+  height: 200px;
+  width: 250px;
+  margin: 30px 50px;
+  margin-left: 50px;
+  padding: 5px;
+  filter: grayscale(100%);
+  transition: 1s;
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .gallary-image {
+    height: 200px;
+    width: 150px;
+  }
+}
+.gallary-image:hover{
+  filter: grayscale(0);
+  transition: scale(1.1);
+}
+
+.images-button{
+  text-align: right;
+}
+.butn {
+  background: #FFF;
+  background-image: -webkit-linear-gradient(top, #FFF, #FFF);
+  background-image: -moz-linear-gradient(top, #FFF, #FFF);
+  background-image: -ms-linear-gradient(top, #FFF, #FFF);
+  background-image: -o-linear-gradient(top, #FFF, #FFF);
+  background-image: linear-gradient(to bottom, #FFF, #FFF);
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: Georgia;
+  color: #435E55FF;
+  font-size: 20px;
+  padding: 7px 7px 7px 7px;
+  text-decoration: none;
+  margin-left: 100px;
+}
+
+.butn:hover {
+  background: #FFF;
+  background-image: -webkit-linear-gradient(top, #FFF, #FFF);
+  background-image: -moz-linear-gradient(top, #FFF, #FFF);
+  background-image: -ms-linear-gradient(top, #FFF, #FFF);
+  background-image: -o-linear-gradient(top, #FFF, #FFF);
+  background-image: linear-gradient(to bottom, #FFF, #FFF);
+  text-decoration: none;
+  color:  #28544b;
+}
+/* ...................................................lasttttt............................................ */
+#last{
+  background-color: #435E55FF;
+
+  padding: 1rem 1rem 0;
+  color: #FFF;
+  text-align: center;
+}
+.last1 {
+  background-color:  #435E55FF;
+  height: 100px;
+  width: 300px;
+  margin-left: 1rem;
+  text-align: center;
+  /* padding: 1rem; */
+  color: #FFF;
+  line-height: 2px;
+  display: inline-block;
+}
+
+.linkk{
+  color: white;
+
+}
+.linkk:hover{
+  color: #28544b;
+}
+.last2{
+  background-color:  #435E55FF;
+  height: 350px;
+  width: 300px;
+  margin-left: 1rem;
+  text-align: center;
+  /* padding: 1rem; */
+  color: #FFF;
+  line-height: 2px;
+  display: inline-block;
+}
+.last3{
+  background-color:  #435E55FF;
+  height: 200px;
+  width: 300px;
+  margin-left: 1rem;
+  text-align: center;
+  /* padding: 1rem; */
+  color: #FFF;
+  line-height: 2px;
+  display: inline-block;
+}
+
+.google{
+  height: 10rem;
+  width: 7rem;
+}
+
+.counter{
+  margin: 10px;
+  padding-bottom: 20px;
+}
+/* social-icon */
+#social-icon{
+  text-align: center;
+
+  background-color: #435E55FF;
+}
+.social-icon{
+  margin: 20px 10px;
+  color: white;
+
+}
+#footer{
+  background-color: black;
+  color: grey;
+  height: 2rem;
+  text-align: right;
+}
+.Copyright{
+  margin-right: 2rem;
+}
+.saloni .linkk2{
+  color: grey;
+  margin-right: 2rem;
+}
+.linkk2:hover{
+  color:  #435E55FF;
+}
+/* ...................................................facilities............................................ */
+
+/*                                                           contact-us                                       */
+
+#form .container{
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: 'Chelsea Market', cursive;
+}
+.query-image{
+  filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 700px;
+}
+.contact-title{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+.contact-title h1{
+  font-size: 32px;
+}
+.contact-title h2{
+  font-size: 32px;
+  line-height: 10px;
+}
+.contact-form{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.form-control{
+  width: 600;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+.form-control::placeholder{
+  color: white;
+}
+.form-msg{
+  width: 600;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+    color: #fff;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+input{
+  height: 45px;
+}
+::placeholder{
+  color: white ;
+}
+#form form .submit{
+  background: #ff5722;
+  border-color: transparent;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: : 20px;
+}
+#form form .submit:hover{
+  background-color: #f44336;
+}
+
+.sports-table{
+  width: 80%;
+  border: 1px solid;
+  margin-bottom: 30px;
+  margin-left:10%;
+  margin-right: 20%;
+}
+.sports-table th{
+  text-align: center;
+  color: #435E55FF;
+  width: 100px;
+}
+.sports-table td {
+  text-align: center;
+  height: 50px;
+  width: 300px ;
+}
+@media only screen and (max-width: 600px) {
+  .sports-table th{
+    text-align: center;
+    color: #435E55FF;
+    width: 70px;
+  }
+  .sports-table td {
+    text-align: center;
+    height: 50px;
+    width: 200px ;
+  }
+  .sports-table{
+    width: 80%;
+    height: 400px;
+    margin-bottom: 30px;
+    margin-left:10%;
+    margin-right: 20%;
+  }
+}
+/*                                                           staff          */
+.teacher-img{
+  height: 200px;
+  width: 200px;
+}
+.last-dept{
+  color: white;
+}
+.last-dept:hover{
+  color: black;
+}
+
+.line2{
+  border: none;
+  border-top: 3px double ;
+  color: #435E55FF;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  margin-top: 5px;
+  margin: 3px;
+}
+
+.teacher-table{
+  width: 80%;
+  border: 1px solid;
+  margin-bottom: 30px;
+  margin-left:10%;
+  margin-right: 20%;
+}
+.teacher-table th{
+  text-align: left;
+  color: #435E55FF;
+  width: 100px;
+}
+.teacher-table td {
+  text-align: left;
+  height: 30px;
+  width: 300px ;
+}
+@media only screen and (max-width: 600px) {
+  .teacher-table th{
+    text-align: left;
+    color: #435E55FF;
+    width: 70px;
+  }
+  .teacher-table td {
+    text-align: left;
+    height: 30px;
+    width: 200px ;
+  }
+  .teacher-table{
+    width: 80%;
+    height: 400px;
+    margin-bottom: 30px;
+    margin-left:10%;
+    margin-right: 20%;
+  }
+}
